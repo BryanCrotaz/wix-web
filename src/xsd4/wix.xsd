@@ -5511,7 +5511,7 @@
       </xs:attribute>
       <xs:attribute name="BindPath" type="xs:string">
         <xs:annotation>
-          <xs:documentation>A list of paths, separated by semicolons, that represent the paths to be searched to find the imported DLLs. The list is usually a list of properties, with each property enclosed inside square brackets. The value may be set to an empty string. Including this attribute will cause an entry to be generated for the file in the BindImage table.</xs:documentation>
+          <xs:documentation>A list of paths, separated by semicolons, that represent the paths to be searched to find the imported DLLs. The list is usually a list of properties, with each property enclosed inside square brackets. The value may be set to an empty string. Including this attribute will cause an entry to be generated for the file in the <a href="https://wixtoolset.org/docs/schema/wxs/bindimage">BindImage</a> table.</xs:documentation>
         </xs:annotation>
       </xs:attribute>
       <xs:attribute name="SelfRegCost" type="Integer">
@@ -6016,7 +6016,7 @@
         <xs:annotation>
           <xs:documentation>
             Set this attribute to 'yes' to make this registry key the KeyPath of the parent component.
-            Only one resource (registry, file, etc) can be the KeyPath of a component.
+            Only one resource (registry, file, etc) can be the KeyPath of a component. **Default: true**
           </xs:documentation>
         </xs:annotation>
       </xs:attribute>
